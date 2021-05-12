@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
@@ -193,6 +194,9 @@ h1.font {
   font-size: 39px;
   -webkit-text-stroke: 1px black;
   font-family: 'Grenze', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.row__1 p {
+  font-family: 'Londrina Shadow', cursive; }
 
 @media screen and (min-width: 768px) {
   .row__1 p {
@@ -452,12 +456,15 @@ h1.font {
     text-align: center;
     padding-top: 0px; } }
 
+.row__1 p {
+  font-family: 'Londrina Shadow', cursive; }
+
 .container__0 {
-  background-image: url(https://userscontent2.emaze.com/images/653b0504-ed70-4bcd-96ca-f091311929e1/0a49d7eb-87e4-4647-8f50-c30d2931c1ce.jpg);
+  background-image: url(https://img.freepik.com/foto-gratis/escritorio-madera-vacia-sobre-fondo-verde-bokeh_39658-108.jpg?size=626&ext=jpg);
   background-size: cover;
   height: 80px;
   text-align: center;
-  margin-top: -15px;
+  margin-top: -10px;
   border: 2px coral; }
 
 @media screen and (min-width: 768px) {
