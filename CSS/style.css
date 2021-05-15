@@ -206,7 +206,7 @@ h1.font {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .row__1 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px; } }
+    font-size: 19px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .row__3 span.badge {
@@ -460,7 +460,7 @@ h1.font {
   font-family: 'Londrina Shadow', cursive; }
 
 .container__0 {
-  background-image: url(https://img.freepik.com/foto-gratis/escritorio-madera-vacia-sobre-fondo-verde-bokeh_39658-108.jpg?size=626&ext=jpg);
+  background-image: url(https://image.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg);
   background-size: cover;
   height: 80px;
   text-align: center;
@@ -1083,7 +1083,8 @@ section {
 img.navbar-brand {
   width: 160px;
   height: 165px;
-  margin-top: 2px; }
+  margin-top: 2px;
+  border-radius: 15px; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   img.navbar-brand {
@@ -1131,15 +1132,14 @@ img.navbar-brand {
     margin-left: 163px; } }
 
 nav.navbar {
-  background-image: url(https://www.maderaschapar.com/wp-content/uploads/2017/01/madera-pino-maritimo.jpg);
+  background-image: url(https://image.freepik.com/foto-gratis/mesa-fondo-borroso_1253-28.jpg);
+  background-size: cover;
   position: inherit;
-  width: 100%;
-  height: 165px; }
+  width: 100%; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   nav.navbar {
-    width: 100%;
-    height: 165px; } }
+    width: 100%; } }
 
 .navbar-text {
   margin-left: 79px;
@@ -1342,3 +1342,7 @@ input.form__1 {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   label input.inp {
     margin-left: -30px; } }
+
+.navbar-light .navbar-toggler {
+  background-color: #e6ac41;
+  border-color: rgba(30, 255, 0, 0.85); }
