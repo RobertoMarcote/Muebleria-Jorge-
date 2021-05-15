@@ -870,7 +870,7 @@ p small.text-muted{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tarjeta{
-        height: 400px;
+        height: 460px;
         display: block;
     }
 }
@@ -907,7 +907,7 @@ p small.text-muted{
         height: 75px;
         margin-left: 75px;
         padding-top: 2px;
-        display: none;
+        // display: none;
     }
 }
 .tarjeta__titulo {
@@ -917,7 +917,7 @@ p small.text-muted{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tarjeta__titulo{
-        margin-top: 5px;
+        margin-top: 7px;
     }
 }
 .tarjeta__parrafo {
