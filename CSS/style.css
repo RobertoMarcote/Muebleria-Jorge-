@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Grenze:ital@1&display=swap");
-@import url(https://allfont.es/allfont.css?fonts=seasideresort);
+@import url("https://allfont.es/allfont.css?fonts=seasideresort");
 .card {
   background-color: #e9dede; }
 
@@ -477,7 +477,8 @@ h1.font {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .row__1 p {
-    padding-top: 15px; } }
+    padding-top: 15px;
+    margin-left: 10px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .row__3 span.badge {
@@ -579,8 +580,26 @@ a.form__sub {
 div label {
   margin-left: 2rem; }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  div label {
+    margin-left: 70px; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .selec0 label {
+    margin-left: 116px; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .consul0 label {
+    margin-left: 35px; } }
+
+div.terms0 {
+  display: inline; }
+
 div input {
   margin-left: 20%; }
+
+.color0 {
+  margin-left: 30px; }
 
 @keyframes aparecer {
   0% {
@@ -718,6 +737,9 @@ div.box__1, div.box__2 {
 @media screen and (max-width: 320px) {
   .I {
     margin-top: -40px; } }
+
+input .checkbox {
+  margin-left: 0px; }
 
 div img.III {
   width: 100px;
@@ -893,12 +915,15 @@ form {
   justify-content: space-evenly;
   align-items: center; }
 
-form input,
-form textarea {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  form {
+    height: 65rem; } }
+
+form input {
   padding: 4px; }
 
-label {
-  margin-left: 10px; }
+div select {
+  margin-left: 102px; }
 
 .pf {
   margin-top: 1rem;
@@ -956,7 +981,8 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container-body {
-    display: block; } }
+    display: block;
+    margin-top: -20px; } }
 
 .column1 {
   max-width: 400px;
@@ -976,7 +1002,8 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .column1 p {
-    text-align: center; } }
+    text-align: center;
+    margin-left: 20px; } }
 
 .column2 {
   max-width: 400px;
@@ -1256,3 +1283,62 @@ p small.text-muted {
   position: absolute;
   right: 20px;
   bottom: -25px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  form {
+    padding-top: 75px;
+    text-align: center; } }
+
+label.form__0 {
+  margin-left: 50px;
+  margin-top: 10px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  div.form__part {
+    display: block;
+    margin-top: 10px; } }
+
+input.form__1 {
+  margin-left: 10px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  input.form__1 {
+    margin-top: 0px;
+    margin-left: 3rem; } }
+
+.color0__sub {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 3rem;
+  font-family: 'Times New Roman', Times, serif; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  h3.color0__sub {
+    margin-left: 1rem; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  div.selec0 {
+    margin-left: -4rem; } }
+
+.cuadro {
+  margin-left: 55px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cuadro {
+    width: 90%;
+    margin-left: 16px; } }
+
+.consul0__t {
+  margin-left: 8rem;
+  font-size: 28px; }
+
+.inp {
+  margin-left: 10px; }
+
+.button {
+  display: inline-flex;
+  margin-left: 30px; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  label input.inp {
+    margin-left: -30px; } }
