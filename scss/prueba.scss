@@ -125,12 +125,12 @@ h1.font{
 }
 @media screen and (min-width: 768px) {
     div.column2{
-    margin-left: -10px;    
+        margin-left: -10px;    
     }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     div.column2{
-    margin-left: 42px;    
+        margin-left: 42px;    
     }
 }
 @media screen and (min-width: 768px) {
@@ -616,6 +616,7 @@ footer{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .column1{
+        display: block;
         width: 310px;
     }
 }
@@ -636,6 +637,7 @@ footer{
     }
 }
 .column2{
+    display: block;
     max-width: 400px;
     margin-top: 25px;
 }
@@ -666,6 +668,7 @@ footer{
     }
 }
 .column3{
+    display: block;
     max-width: 400px;
     margin-top: 25px;
 }
