@@ -143,7 +143,7 @@ main.index__sub{
     }
 }
 .navbar-text{
-    text-shadow: 2px -2px 1px blue;
+    text-shadow: 2px -2px 1px rgb(192, 64, 192);
 }  
 h5.card-title{
     color: #ec731e;
@@ -165,6 +165,10 @@ h5.card-title{
 	background-color: rgb(102, 81, 10);
 	color: white;
 }
+.navbar-light .navbar-toggler {
+    background-color: #e6ac41;
+    border-color: rgba(30, 255, 0, 0.85);
+  }
 
 
 
