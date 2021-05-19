@@ -111,9 +111,15 @@ a.form__sub{
         font-size: 45px;
     }
 }
-
 .index__boxsub p{
     font-weight: 600;
+    font-size: 40px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .index__boxsub p{
+        font-weight: 400;
+        font-size: 28px;
+    }
 }
 .badge{
     font-family:initial;
