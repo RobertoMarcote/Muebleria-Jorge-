@@ -660,11 +660,11 @@ div input {
 .index__box0 {
   display: grid;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAgXCNGdLkvwzMuw5OEhpQihRcqHbA-BY_TvaZhfyHn9s7TG5AcP_Bvx2OlewI_myKqAc&usqp=CAU);
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   grid-column: 7 / 12;
   grid-row: 1 / 3;
   padding: 1rem 1rem 1rem 1rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   justify-content: center; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -675,6 +675,9 @@ div input {
 .index__box0 h2,
 .index__box h2 {
   margin-left: 2%; }
+
+section.index__box {
+  height: 500px; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .index__box0 h2 {
