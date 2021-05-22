@@ -1003,7 +1003,8 @@ footer {
 
 .column1 {
   max-width: 400px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 5px; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .column1 {
@@ -1012,8 +1013,11 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .column1 h1 {
+    display: block;
+    width: 310px;
+    padding-top: 20px;
     text-align: center;
-    padding-top: 10px; } }
+    padding-left: 37px; } }
 
 .column1 p {
   margin-top: 20px;

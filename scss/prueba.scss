@@ -343,6 +343,7 @@ div.box__1{
     margin: 5px;
     /* height: 30vh; */
     margin-top: 1rem;
+    
 }
 .box__1 p{
     margin-left: 2rem;
@@ -613,6 +614,7 @@ footer{
 .column1{
     max-width: 400px;
     margin-top: 20px;
+    margin-left: 5px;
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .column1{
@@ -622,8 +624,11 @@ footer{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .column1 h1{
+        display: block;
+        width: 310px;
+        padding-top: 20px;
         text-align: center;
-        padding-top: 10px;
+        padding-left: 37px;
     }
 }
 .column1 p{
