@@ -13,6 +13,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Grenze:ital@1&display=swap');
 @import url('https://allfont.es/allfont.css?fonts=seasideresort');
 
+body{
+    width: 100%;
+    height: 150%;
+}
 .index__h1{
     background-image: url(https://image.freepik.com/foto-gratis/material-carpinteria-mesa-madera_23-2148180579.jpg);
     background-size:cover;
@@ -325,15 +329,6 @@ $fondo-claro: true;
             background-color:thistle ;
         }
     }
- 
-/* @media screen and (min-width: 320) and (max-width: 767px) {
-    div .caja {
-        width: 100%;
-        position:absolute;
-        display: block;
-        grid-template-columns: 1fr;
-    }
-} */
 .row p{
     text-align:center;
     padding-top: 20px;
@@ -346,8 +341,7 @@ div.box__1{
     /* align-items: center; */
     margin: 5px;
     /* height: 30vh; */
-    margin-top: 1rem;
-    
+    margin-top: 1rem;  
 }
 .box__1 p{
     margin-left: 2rem;
@@ -586,9 +580,6 @@ img.inicio1_2:hover{
     background-image: url(../Imagenes/1.jpg);
     background-size: cover;
 }
-.index__boxsub h2{
-    
-}
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .index__boxsub{
         margin-right: 18px;
@@ -616,7 +607,7 @@ footer{
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .container-body{
         display: block;
-        margin-top: -20px;
+        margin-top: 2rem;
     }
 }
 .column1{
@@ -711,11 +702,21 @@ div.row2{
 section{
     display: flex;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    section{
+        display: block;
+    }
+}
 .logo img{
     width: 400px;
 }
 .d-block w-100{
     width: 500px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .d-block{
+        // margin-top: 150px;        
+    }
 }
 .slide{
     margin-top: 10px;
@@ -849,6 +850,7 @@ p small.text-muted{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .contenedor{
+        display: block;
         max-width: 1000px;
     	width: 90%;
 	    margin: 0 auto;
@@ -856,16 +858,19 @@ p small.text-muted{
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .contenedor__q{
+        display: block;
         max-width: 1000px;
     	width: 90%;
-	    margin: 0 auto;
+	    margin-top: 65rem;
+        margin-right: 12px;
     }
 }
 .tarjeta {
-    margin-top: 15px;
+    margin-top: 20px;
     height: 350px;
 	border-radius: 15px;
 	padding: 20px;
+    padding-top: 10px;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -896,17 +901,14 @@ p small.text-muted{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .tarjeta__q{
         height: 615px;
-        padding-top: 1px;
+        margin: 50px 0 20px 10px;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .tarjeta__q{
         display: block;
         height: 520px;
-        padding-top: 17px;
         border-style: double;
-        margin-top: 35px;
-        margin-bottom: 25px;
     }
 }
 .tarjeta__img {
@@ -1018,4 +1020,37 @@ label.form__0{
         margin-left: -30px;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel{
+         margin-top: 193px;
+    }
+}
+img.img-fluid{
+    display: block;
+    width: 45%;
+    height: 45%;
+    margin-left: 24rem;
+    border-radius: 7px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    img.img-fluid{
+         margin-top: 195px;
+         margin-left: 14rem;
+         margin-bottom: -1rem;
+         border-radius: 5px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    img.img-fluid{
+        width: 80%;
+        height: 80%;
+        display: block;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-top: 65rem;
+        margin-bottom: -63rem;
+    }
+}
+
+
 

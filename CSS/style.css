@@ -436,6 +436,10 @@ label {
 .consul0__t {
   font-size: 28px; }
 
+body {
+  width: 100%;
+  height: 150%; }
+
 .index__h1 {
   background-image: url(https://image.freepik.com/foto-gratis/material-carpinteria-mesa-madera_23-2148180579.jpg);
   background-size: cover;
@@ -714,14 +718,6 @@ div .caja {
 div .caja {
   background-color: #ede4a3; }
 
-/* @media screen and (min-width: 320) and (max-width: 767px) {
-    div .caja {
-        width: 100%;
-        position:absolute;
-        display: block;
-        grid-template-columns: 1fr;
-    }
-} */
 .row p {
   text-align: center;
   padding-top: 20px; }
@@ -1003,7 +999,7 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container-body {
     display: block;
-    margin-top: -20px; } }
+    margin-top: 2rem; } }
 
 .column1 {
   max-width: 400px;
@@ -1086,6 +1082,10 @@ div.row2 {
 
 section {
   display: flex; }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  section {
+    display: block; } }
 
 .logo img {
   width: 400px; }
@@ -1218,21 +1218,25 @@ p small.text-muted {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contenedor {
+    display: block;
     max-width: 1000px;
     width: 90%;
     margin: 0 auto; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .contenedor__q {
+    display: block;
     max-width: 1000px;
     width: 90%;
-    margin: 0 auto; } }
+    margin-top: 65rem;
+    margin-right: 12px; } }
 
 .tarjeta {
-  margin-top: 15px;
+  margin-top: 20px;
   height: 350px;
   border-radius: 15px;
   padding: 20px;
+  padding-top: 10px;
   display: flex;
   align-items: center;
   position: relative;
@@ -1261,16 +1265,13 @@ p small.text-muted {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .tarjeta__q {
     height: 615px;
-    padding-top: 1px; } }
+    margin: 50px 0 20px 10px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .tarjeta__q {
     display: block;
     height: 520px;
-    padding-top: 17px;
-    border-style: double;
-    margin-top: 35px;
-    margin-bottom: 25px; } }
+    border-style: double; } }
 
 .tarjeta__img {
   width: 260px;
@@ -1370,3 +1371,31 @@ input.form__1 {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   label input.inp {
     margin-left: -30px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .carousel {
+    margin-top: 193px; } }
+
+img.img-fluid {
+  display: block;
+  width: 45%;
+  height: 45%;
+  margin-left: 24rem;
+  border-radius: 7px; }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  img.img-fluid {
+    margin-top: 195px;
+    margin-left: 14rem;
+    margin-bottom: -1rem;
+    border-radius: 5px; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  img.img-fluid {
+    width: 80%;
+    height: 80%;
+    display: block;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 65rem;
+    margin-bottom: -63rem; } }
