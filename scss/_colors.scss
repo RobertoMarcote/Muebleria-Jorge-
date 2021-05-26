@@ -17,7 +17,7 @@ li{
     color: rgb(42, 18, 133);
 }
 footer{
-    background: linear-gradient(to right, #7e6f65, #f9d423); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: cadetblue;
 }
 h1.font{
     color: rgb(171, 146, 62);
@@ -169,7 +169,9 @@ h5.card-title{
     background-color: #e6ac41;
     border-color: rgba(30, 255, 0, 0.85);
   }
-
+  div.card-body{
+    background-color: rgb(206, 225, 226);
+}
 
 
 

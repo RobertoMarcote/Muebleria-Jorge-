@@ -23,8 +23,7 @@ li {
   color: #2a1285; }
 
 footer {
-  background: linear-gradient(to right, #7e6f65, #f9d423);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background-color: cadetblue; }
 
 h1.font {
   color: #ab923e;
@@ -181,6 +180,9 @@ h5.card-title {
 .navbar-light .navbar-toggler {
   background-color: #e6ac41;
   border-color: rgba(30, 255, 0, 0.85); }
+
+div.card-body {
+  background-color: #cee1e2; }
 
 .font {
   font-family: SeasideResortNF, arial;
@@ -716,7 +718,7 @@ div .caja {
   margin: 45px 0px 0px 4px; }
 
 div .caja {
-  background-color: #ede4a3; }
+  background-color: #6dbfbb; }
 
 .row p {
   text-align: center;
@@ -724,7 +726,7 @@ div .caja {
 
 div.box__1, div.box__2 {
   display: flex;
-  background-image: url(https://i.pinimg.com/originals/ec/b9/70/ecb97078f59de44b8f26d9981569860f.jpg);
+  background-color: #83babb;
   background-size: cover;
   justify-content: space-evenly;
   /* align-items: center; */
@@ -982,7 +984,6 @@ h3.form {
   text-align: center; }
 
 footer {
-  background-image: url(https://us.123rf.com/450wm/dmstudio/dmstudio1203/dmstudio120300057/12927960-vector-abstract-rural-landscape-with-rising-sun.jpg?ver=6);
   background-size: cover;
   margin-top: 15px; }
 
@@ -1126,7 +1127,6 @@ img.navbar-brand {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #navbarNav-text {
     z-index: 2;
-    background-image: url(https://www.gaulan.es/552871-home_default/porto-mendes-679587.jpg);
     background-size: cover;
     margin-left: 355px;
     padding-top: -10px; } }
@@ -1134,7 +1134,7 @@ img.navbar-brand {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   div.navbar-collapse {
     z-index: 2;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtGEEV9JMc2kJ8hVeSJGzRKCt8wmqtqk5hS2WQdKdk-kmvx90kh1D8O0NBc6d3nBpwj98&usqp=CAU);
+    background-color: #def0ea;
     background-size: cover;
     border: double black;
     border-radius: 10px;
@@ -1144,7 +1144,7 @@ img.navbar-brand {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   div.navbar-collapse {
     z-index: 2;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtGEEV9JMc2kJ8hVeSJGzRKCt8wmqtqk5hS2WQdKdk-kmvx90kh1D8O0NBc6d3nBpwj98&usqp=CAU);
+    background-color: #d2f3e9;
     background-size: cover;
     border-radius: 10px;
     border: double black;
@@ -1183,7 +1183,8 @@ img.shadow {
   height: 60%; }
 
 .card-deck {
-  margin: 17px 35px 12px 35px; }
+  margin: 19px 37px 14px 37px;
+  border: 53; }
 
 div.card {
   border-radius: 5px; }
@@ -1399,3 +1400,10 @@ img.img-fluid {
     margin-left: 40px;
     margin-top: 65rem;
     margin-bottom: -63rem; } }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  img.img-fluid {
+    margin-top: 195px;
+    margin-left: 14rem;
+    margin-bottom: -1rem;
+    border-radius: 5px; } }

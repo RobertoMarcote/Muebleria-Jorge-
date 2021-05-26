@@ -324,7 +324,7 @@ div .caja{
 $fondo-claro: true;
     div .caja {
         @if $fondo-claro == true {
-            background-color: rgb(237, 228, 163);
+            background-color: rgb(109, 191, 187);
         } @else {
             background-color:thistle ;
         }
@@ -335,7 +335,7 @@ $fondo-claro: true;
 }
 div.box__1{
     display: flex;
-    background-image: url(https://i.pinimg.com/originals/ec/b9/70/ecb97078f59de44b8f26d9981569860f.jpg);
+    background-color: rgb(131, 186, 187);
     background-size: cover;
     justify-content: space-evenly;
     /* align-items: center; */
@@ -590,7 +590,6 @@ h3.form{
     text-align: center;
 }
 footer{
-    background-image: url(https://us.123rf.com/450wm/dmstudio/dmstudio1203/dmstudio120300057/12927960-vector-abstract-rural-landscape-with-rising-sun.jpg?ver=6);
     background-size: cover;
     margin-top: 15px;
 }
@@ -752,7 +751,6 @@ img.navbar-brand{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #navbarNav-text{
        z-index: 2;
-        background-image: url(https://www.gaulan.es/552871-home_default/porto-mendes-679587.jpg);
         background-size: cover ;
         margin-left: 355px;
         padding-top: -10px;
@@ -761,7 +759,7 @@ img.navbar-brand{
 @media screen and (min-width: 320px) and (max-width: 767px) {
     div.navbar-collapse{
         z-index: 2;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtGEEV9JMc2kJ8hVeSJGzRKCt8wmqtqk5hS2WQdKdk-kmvx90kh1D8O0NBc6d3nBpwj98&usqp=CAU);
+        background-color:rgb(222, 240, 234);
         background-size: cover;
         border: double black;
         border-radius: 10px;
@@ -772,7 +770,7 @@ img.navbar-brand{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     div.navbar-collapse{
         z-index: 2;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtGEEV9JMc2kJ8hVeSJGzRKCt8wmqtqk5hS2WQdKdk-kmvx90kh1D8O0NBc6d3nBpwj98&usqp=CAU);
+        background-color:rgb(210, 243, 233);
         background-size: cover;
         border-radius: 10px;
         border: double black;
@@ -815,7 +813,8 @@ img.shadow{
     width: 30%; height: 60%;
 }
 .card-deck{
-    margin: 17px 35px 12px 35px;
+    margin: 19px 37px 14px 37px;
+    border: blue($color: #5e3535);
 }
 div.card{
     border-radius: 5px;
@@ -1049,6 +1048,14 @@ img.img-fluid{
         margin-left: 40px;
         margin-top: 65rem;
         margin-bottom: -63rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    img.img-fluid{
+         margin-top: 195px;
+         margin-left: 14rem;
+         margin-bottom: -1rem;
+         border-radius: 5px;
     }
 }
 
